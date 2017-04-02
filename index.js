@@ -10,6 +10,10 @@ var tagP = document.querySelector(selector);
 
 
 function setTextAll(selector, text) {
+	var items =  document.querySelectorAll(selector);
+	items.forEach(function(element) {
+		element.innerText = text
+	}, this);
 	// Write your code here
 }
 
