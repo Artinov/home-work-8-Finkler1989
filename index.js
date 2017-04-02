@@ -3,7 +3,8 @@ function setText(selector, text) {
 		`selector` is string with CSS-like selector
 		`text` - is just string with text we want to change
 	*/
-
+var tagP = document.querySelector(selector);
+	tagP.innerText = text;
 	// Write your code here
 }
 
